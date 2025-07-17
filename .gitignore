@@ -1,4 +1,4 @@
-# OTT Analytics - Files to ignore on GitHub
+git # OTT Analytics - Files to ignore on GitHub
 
 # Environment files (contain sensitive data)
 .env
