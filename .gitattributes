@@ -48,5 +48,4 @@ pyproject.toml text eol=lf
 
 # Exclude files from language statistics (GitHub)
 *.ipynb linguist-language=Jupyter-Notebook
-"OTT Dataset"/* linguist-vendored
 *.csv linguist-generated=true
