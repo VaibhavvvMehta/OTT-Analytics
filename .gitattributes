@@ -1,0 +1,52 @@
+# Git attributes for OTT Analytics project
+
+# Jupyter Notebooks - treat as binary to avoid large JSON diffs
+*.ipynb diff=jupyternotebook
+*.ipynb merge=jupyternotebook
+
+# Alternative approach - treat as binary if above doesn't work
+# *.ipynb -diff
+
+# Python files - ensure proper line endings and diff handling
+*.py text eol=lf diff=python
+
+# Data files - treat as binary
+*.csv binary
+*.xlsx binary
+*.xls binary
+
+# Documentation files
+*.md text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+
+# Configuration files
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+
+# Requirements and setup files
+requirements*.txt text eol=lf
+setup.py text eol=lf
+setup.cfg text eol=lf
+pyproject.toml text eol=lf
+
+# Git files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Batch files (Windows)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Exclude files from language statistics (GitHub)
+*.ipynb linguist-language=Jupyter-Notebook
+"OTT Dataset"/* linguist-vendored
+*.csv linguist-generated=true
