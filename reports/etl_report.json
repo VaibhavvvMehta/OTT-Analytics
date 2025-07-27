@@ -1,0 +1,30 @@
+{
+  "etl_completed_at": "2025-07-28T02:28:55.317135",
+  "datasets_processed": [
+    "netflix",
+    "amazon",
+    "disney",
+    "netflix_ratings"
+  ],
+  "total_content": 19925,
+  "platform_summary": {
+    "netflix": {
+      "total_shows": 8807,
+      "movies": 6131,
+      "series": 2676
+    },
+    "amazon": {
+      "total_shows": 9668,
+      "movies": 7814,
+      "series": 1854
+    },
+    "disney": {
+      "total_shows": 1450,
+      "movies": 1052,
+      "series": 398
+    },
+    "netflix_ratings": {
+      "total_rated_content": 15480
+    }
+  }
+}

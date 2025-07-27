@@ -1,0 +1,20 @@
+# Essential packages for OTT Analytics Notebook
+
+# Data Processing
+pandas==2.2.3
+numpy==2.1.3
+
+# Database Operations
+sqlalchemy==2.0.23
+pymysql==1.1.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Visualizations
+plotly==5.17.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Jupyter Notebook
+jupyter==1.0.0
