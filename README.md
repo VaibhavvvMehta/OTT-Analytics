@@ -99,7 +99,6 @@ This project analyzes OTT (Over-The-Top) streaming platforms data to generate in
 - **Python**: Pandas, NumPy, Scikit-learn
 - **Visualisation**: Plotly, Matplotlib, Seaborn
 - **Database**: MySQL, SQLAlchemy
-- **Web Dashboard**: Dash, Bootstrap
 - **Analysis**: Jupyter Notebooks
 
 ## Dashboard Features
@@ -109,4 +108,5 @@ This project analyzes OTT (Over-The-Top) streaming platforms data to generate in
 - Revenue and subscription insights
 - Geographic viewing patterns
 - Content recommendation insights
+
 
