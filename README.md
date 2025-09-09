@@ -43,7 +43,6 @@ This project analyzes OTT (Over-The-Top) streaming platforms data to generate in
 - **SQLAlchemy**: Database ORM
 - **MySQL**: Database storage
 - **Jupyter Notebook**: Analysis environment
-- **Scikit-learn**: Machine learning capabilities
 - **Advanced Analytics**: 
   - User engagement metrics
   - Content performance analysis
@@ -55,20 +54,18 @@ This project analyzes OTT (Over-The-Top) streaming platforms data to generate in
 ## Project Structure
 
 ```
-├── data/
-│   ├── raw/                 # Raw CSV datasets
-│   ├── processed/          # Processed data
-│   └── synthetic/          # Generated streaming data
-├── src/
-│   ├── data_processing/    # ETL and data processing scripts
-│   ├── database/          # Database schema and operations
-│   ├── analytics/         # Analysis modules
-│   ├── visualization/     # Dashboard and plotting utilities
-│   └── models/           # ML models for predictions
-├── notebooks/             # Jupyter notebooks for analysis
-├── config/               # Configuration files
-├── dashboards/           # Dashboard files
-└── reports/              # Generated reports and exports
+├── Dataset/
+│   ├── amazon_prime_titles.csv
+│   ├── disney_plus_titles.csv
+│   ├── netflix-rotten-tomatoes-metacritic-imdb.csv
+│   └── netflix_titles.csv
+├── notebooks/
+│   └── OTT_Analytics_Analysis.ipynb
+├── reports/
+│   └── etl_report.json
+├── Dashboards.pbix
+├── README.md
+├── requirements.txt
 ```
 
 ## Setup Instructions
@@ -96,12 +93,11 @@ This project analyzes OTT (Over-The-Top) streaming platforms data to generate in
 - **Synthetic Data Generator**: Creates realistic streaming and user engagement data
 - **Analytics Engine**: Comprehensive analysis of viewing patterns and performance
 - **Interactive Dashboard**: Real-time insights and visualizations
-- **ML Models**: Predictive analytics for churn and content recommendations
 
 ## Technologies Used
 
 - **Python**: Pandas, NumPy, Scikit-learn
-- **Visualization**: Plotly, Matplotlib, Seaborn
+- **Visualisation**: Plotly, Matplotlib, Seaborn
 - **Database**: MySQL, SQLAlchemy
 - **Web Dashboard**: Dash, Bootstrap
 - **Analysis**: Jupyter Notebooks
@@ -112,5 +108,5 @@ This project analyzes OTT (Over-The-Top) streaming platforms data to generate in
 - Content performance analytics
 - Revenue and subscription insights
 - Geographic viewing patterns
-- Churn prediction and retention analysis
 - Content recommendation insights
+
